@@ -1,0 +1,48 @@
+/*mapas*/
+$redes: (
+        twitter:#55aCee,
+        facebook:#3a5795,
+        instagram:#C25E30,
+
+);
+
+@each $social, $color in $redes{
+    .div--#{$social}{
+        color: $color;
+        text-align: center;
+        border: 5px solid $color;
+        margin: 5px
+    }
+}
+
+/*extend*/
+.contacto{
+    text-align: center;
+    color: red;
+}
+
+.contacto--telefono{
+    @extend .contacto;
+    font-size: 25px;
+    border: 5px solid black;
+}
+
+.contacto--mail{
+    @extend .contacto;
+    font-size: 15px;
+    border: 5px dashed green;
+}
+
+/*mixin*/
+@mixin sizes($height, $width){
+    height: $height;
+    width: $width;
+}
+
+
+.my_mixin{
+    @include sizes(80px,500px);
+    border: 5px solid gray;
+    color: red;
+    text-align: center;
+}

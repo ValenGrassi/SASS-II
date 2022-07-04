@@ -1,0 +1,18 @@
+$gris:rgb(238, 238, 238);
+$margen: 10px 50px;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 20px;
+    background-color: aliceblue;
+}
+
+footer{
+    background-color: $gris;
+    padding: 5px;
+    text-align: center;
+}

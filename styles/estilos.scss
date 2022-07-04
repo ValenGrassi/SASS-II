@@ -1,0 +1,52 @@
+@import "generales";
+@import "animaciones";
+@import "operaciones";
+
+.soporte{
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+.empresas{
+    height: 400px;
+    margin: $margen;
+}
+
+.info{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.hymImage{
+    height: 400px;
+    display: block;
+    margin: auto;
+    padding: 50px;
+}
+
+#primerP{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin: $margen;
+    color: red;
+}
+
+.historia{
+    margin: $margen;
+}
+
+.remera {
+    margin: $margen;
+}
+
+.pantalon{
+    margin: $margen;
+}
+
+.contacto{
+    text-align: center;
+}
+
+

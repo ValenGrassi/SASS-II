@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 20px;
+  background-color: aliceblue;
+}
+
+footer {
+  background-color: #eeeeee;
+  padding: 5px;
+  text-align: center;
+}
+
+header {
+  background-color: #eeeeee;
+  position: -webkit-sticky;
+  position: sticky;
+  margin: 10px 10px 50px 10px;
+  padding: 10px;
+}
+
+header ul li {
+  display: inline-block;
+  margin-right: 50px;
+  list-style: none;
+}
+
+header ul li:hover {
+  -webkit-transform: scale(3);
+          transform: scale(3);
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.titulo1 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  border: 2px dashed black;
+  margin: 0px 200px 50px 200px;
+}
+
+.titulo1:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  height: 300px;
+}
+
+.logo:hover {
+  -webkit-animation: messi 2s;
+          animation: messi 2s;
+}
+
+@-webkit-keyframes messi {
+  25% {
+    -webkit-transform: translatex(100px);
+            transform: translatex(100px);
+  }
+  50% {
+    -webkit-transform: translatex(-100px);
+            transform: translatex(-100px);
+  }
+  75% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+  90% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes messi {
+  25% {
+    -webkit-transform: translatex(100px);
+            transform: translatex(100px);
+  }
+  50% {
+    -webkit-transform: translatex(-100px);
+            transform: translatex(-100px);
+  }
+  75% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+  90% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+/*mapas*/
+.div--twitter {
+  color: #55aCee;
+  text-align: center;
+  border: 5px solid #55aCee;
+  margin: 5px;
+}
+
+.div--facebook {
+  color: #3a5795;
+  text-align: center;
+  border: 5px solid #3a5795;
+  margin: 5px;
+}
+
+.div--instagram {
+  color: #C25E30;
+  text-align: center;
+  border: 5px solid #C25E30;
+  margin: 5px;
+}
+
+/*extend*/
+.contacto, .contacto--telefono, .contacto--mail {
+  text-align: center;
+  color: red;
+}
+
+.contacto--telefono {
+  font-size: 25px;
+  border: 5px solid black;
+}
+
+.contacto--mail {
+  font-size: 15px;
+  border: 5px dashed green;
+}
+
+/*mixin*/
+.my_mixin {
+  height: 80px;
+  width: 500px;
+  border: 5px solid gray;
+  color: red;
+  text-align: center;
+}
+
+.soporte {
+  display: block;
+  margin: auto;
+  padding: 15px;
+}
+
+.empresas {
+  height: 400px;
+  margin: 10px 50px;
+}
+
+.info {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+
+.hymImage {
+  height: 400px;
+  display: block;
+  margin: auto;
+  padding: 50px;
+}
+
+#primerP {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  margin: 10px 50px;
+  color: red;
+}
+
+.historia {
+  margin: 10px 50px;
+}
+
+.remera {
+  margin: 10px 50px;
+}
+
+.pantalon {
+  margin: 10px 50px;
+}
+
+.contacto, .contacto--telefono, .contacto--mail {
+  text-align: center;
+}
+/*# sourceMappingURL=estilos.css.map */

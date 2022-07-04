@@ -1,0 +1,55 @@
+header{
+    background-color: $gris;
+    position: sticky;
+    margin: 10px 10px 50px 10px;
+    padding: 10px;
+        ul li{
+            display: inline-block;
+            margin-right: 50px;
+            list-style: none;
+                &:hover{
+                    transform: scale(3);
+                    transition: all 2s;
+                }
+        }
+}
+
+.titulo1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    border: 2px dashed black;
+    margin: 0px 200px 50px 200px;
+        &:hover{
+            transform: rotate(360deg);
+            transition: all 2s;         
+        }
+
+}
+
+
+
+.logo{ 
+    display: block;
+    margin: auto;
+    height: 300px;
+        &:hover{
+            animation: messi 2s;    
+        }
+}
+
+@keyframes messi{
+    25%{
+        transform: translatex(100px)  
+    }
+    50%{
+        transform: translatex(-100px)
+    }
+    75%{
+        transform: scale(2);
+    }
+    90%{
+        transform: rotate(360deg);
+    };
+}
+
